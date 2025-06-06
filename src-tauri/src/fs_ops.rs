@@ -1,7 +1,5 @@
 use std::path::PathBuf;
 use tokio::fs;
-use tokio::io::AsyncReadExt;
-use tokio::io::AsyncWriteExt;
 
 #[tauri::command]
 pub async fn read_file(path: String) -> Result<String, String> {
