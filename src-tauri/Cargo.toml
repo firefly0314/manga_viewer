@@ -27,3 +27,6 @@ smb = "0.5.1"
 tokio = { version = "1", features = ["full"] }
 base64 = "0.22.1"
 
+[dev-dependencies]
+tempfile = "3"
+
